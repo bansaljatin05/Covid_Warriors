@@ -1077,8 +1077,10 @@ section {
 }
 
 .events .card-img img {
-  max-width: 100%;
-  transition: all 0.3s ease-in-out;
+  max-width: 60%;
+ transition: all 0.3s ease-in-out;
+border-style: solid;
+  border-width: 5px;
 }
 
 .events .card-body {
@@ -1087,9 +1089,28 @@ section {
   border-top: 4px solid #fff;
   padding: 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  margin-top: -60px;
+  margin-top: 0px;
+margin-left: -75px;
+margin-right: 120px;
   transition: 0.3s;
+  max-height:400px;
+
 }
+.events .card-text img{
+border-style:solid;
+border-width:5px;
+
+}
+.events .card-text video {
+border-style: solid;
+  border-width: 5px;
+}
+
+.events .card-text .specials{
+border-style:solid;
+border-width:5px;
+}
+
 
 .events .card-title {
   font-weight: 700;
@@ -1100,6 +1121,7 @@ section {
 .events .card-title a {
   color: #37423b;
   transition: 0.3s;
+text-decoration: underline;
 }
 
 .events .card-text {
@@ -1129,6 +1151,7 @@ section {
 .events .card:hover .card-body .card-title a {
   color: #5fcf80;
 }
+
 
 /*--------------------------------------------------------------
 # Pricing
