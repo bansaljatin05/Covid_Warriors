@@ -283,7 +283,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Mentor</h3>
+            <h3>PECOVID</h3>
             <p>
               Punjab Engineering College <br>
               Chandigharh, 160012<br>
