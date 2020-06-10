@@ -373,15 +373,15 @@
                 <div class="validate"></div>
               </div>
               <div class="col-md-6 form-group">
-                <select class="form-control">
-                  <option>Computer Science</option>
-                  <option>Electronics</option>
-                  <option>Electrical</option>
-                  <option>Mechanical</option>
-                  <option>Civil</option>
-                  <option>Aeropspace</option>
-                  <option>Production</option>
-                  <option>Metallurgical</option>
+                <select id="branch" name="branch" class="form-control">
+                  <option value="Computer Science" >Computer Science</option>
+                  <option value="Electronics">Electronics</option>
+                  <option value="Electrical">Electrical</option>
+                  <option value="Mechanical">Mechanical</option>
+                  <option value="Civil">Civil</option>
+                  <option value="Aeropspace">Aeropspace</option>
+                  <option value="Production">Production</option>
+                  <option value="Metallurgical">Metallurgical</option>
                 </select>
               </div>
             </div>
@@ -396,7 +396,7 @@
               </div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Ask your doubt here"></textarea>
+              <textarea class="form-control" name="doubt" id="doubt" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Ask your doubt here"></textarea>
               <div class="validate"></div>
             </div>
             <div class="mb-3">

@@ -186,7 +186,7 @@ function test_input($data) {
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="number" name="Phone " class="form-control" id="Phone" placeholder="Your Number" data-rule="minlen:10"  data-msg="Please enter a valid number" />
+                  <input type="number" name="Phone" class="form-control" id="Phone" placeholder="Your Number" data-rule="minlen:10"  data-msg="Please enter a valid number" />
                   <div class="validate"></div>
                 </div>
               </div>
