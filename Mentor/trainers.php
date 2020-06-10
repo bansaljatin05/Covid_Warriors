@@ -50,7 +50,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html">PECovid</a></h1>
+      <h1 class="logo mr-auto"><a href="index.php">PECovid</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -59,11 +59,11 @@
           <li><a href="index.html">Home</a></li>
 
 
-          <li class="active"><a href="trainers.html">COVID-19</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="pricing.html">Academics</a></li>
-          <li><a href="counceller_form.html">councelling</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="trainers.php">COVID-19</a></li>
+          <li><a href="events.php">Events</a></li>
+          <li><a href="pricing.php">Academics</a></li>
+          <li><a href="counceller_form.php">councelling</a></li>
+          <li><a href="contact.php">Contact</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -209,12 +209,12 @@ However, those infected with the virus should receive appropriate care to reliev
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="trainers.html">COVID-19</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="events.html">Events</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="pricing.html">Academics</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="counceller_form.html">councelling</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="trainers.php">COVID-19</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="events.php">Events</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="pricing.php">Academics</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="counceller_form.php">councelling</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.php">Contact</a></li>
             </ul>
           </div>
         </div>

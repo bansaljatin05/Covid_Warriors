@@ -26,20 +26,53 @@
 </head>
 
 <body>
+<?php
+    $mysqli = new mysqli("localhost", "root", "", "covwarrior");
+    
+	$name = $email = $subject = $message = " ";
+
+	if($_SERVER["REQUEST_METHOD"] == "POST") {
+        
+        $Name = $mysqli->real_escape_string($_POST["name"]);
+        $Email = $mysqli->real_escape_string($_POST["email"]);
+        $Subject = $mysqli->real_escape_string($_POST["subject"]);
+        $Message = $mysqli->real_escape_string($_POST["message"]);
+        
+        $sql = "INSERT INTO contactus (Name, Email, Subject, Message) " 
+            . "VALUES ('$Name', '$Email', '$Subject', '$Message')";
+        
+        $result = mysqli_query($mysqli,$sql);
+        
+        $name = test_input($_POST["name"]);
+        $email = test_input($_POST["email"]);
+        $subject = test_input($_POST["subject"]);
+        $message = test_input($_POST["message"]);
+
+        
+	}
+
+	function test_input($data) {
+			$data = trim($data);
+			$data = stripslashes($data);
+			return $data;
+		}
+
+	?>
+
 
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html">Pecovid</a></h1>
+      <h1 class="logo mr-auto"><a href="index.php">Pecovid</a></h1>
       
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="trainers.html">COVID-19</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="pricing.html">Academics</a></li>
-          <li><a href="counceller_form.html">Councelling</a></li>
-          <li class="active"><a href="contact.html">Contact</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="trainers.php">COVID-19</a></li>
+          <li><a href="events.php">Events</a></li>
+          <li><a href="pricing.php">Academics</a></li>
+          <li><a href="counceller_form.php">Councelling</a></li>
+          <li class="active"><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -142,13 +175,13 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="trainers.html">COVID-19</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="events.html">Events</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="pricing.html">Academics</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="counceller_form.html">Councelling</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.php">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="trainers.php">COVID-19</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="events.php">Events</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="pricing.php">Academics</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="counceller_form.php">Councelling</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.php">Contact</a></li>
             </ul>
           </div>
         </div>
