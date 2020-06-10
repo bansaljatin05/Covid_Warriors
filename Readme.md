@@ -3,8 +3,6 @@
 
 This website is specially designed in lieu of Covid-19 to showcase activities being organized by students and faculty of PEC in these unprecedented times.
 
-link for repesitory-(https://github.com/manglaaseem28/Covid_Warriors)
-
 Requirements:
 [Xampp server](https://www.apachefriends.org/download.html)
 
