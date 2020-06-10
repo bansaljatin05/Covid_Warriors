@@ -3,12 +3,17 @@
 
 This website is specially designed under Covid-19 situations and reactions taken by PEC.
 
+Requirements:
+Xampp server
+
+Steps:
+1. After installing xampp server move the project folder (Mentor) to C:\xampp\htdocs\ 
+2. Start the Xampp Server.
+3. Go to your browser and type: http://localhost/Mentor/index.php
+
+
 For visiting Home page-
-[index.html](Mentor/index.html)
-
-API used for Covid Tracker-
-
-[API](#)
+[index.php](Mentor/index.php)
 
 Contributors:-
 
